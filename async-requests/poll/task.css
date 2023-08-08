@@ -9,3 +9,27 @@ body {
 .poll__title {
   margin-bottom: 20px;
 }
+
+.poll__answers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.poll__answer {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.poll__answer:hover {
+  background-color: blue;
+  color: white;
+}
